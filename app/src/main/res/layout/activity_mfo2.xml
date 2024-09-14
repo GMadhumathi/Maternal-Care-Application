@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_fo2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/f2"
+        android:layout_width="281dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/f2"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="FOODS TO EAT: MONTH 2"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="\t\t\t\t\t\tIt’s month 2, and your baby is still very small. They’re about an inch long, with tiny bud-like arms and legs. Their digestive tract, eyes, ears, nose, tongue, and skin are developing. Due to hormonal changes, you may still be experiencing some nausea and
+fatigue in your second month.\n\n"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Salmon, cooked eggs"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tThese foods contain DHA, which is produced from one of the two essential fatty acids our bodies cannot make. Many women don’t get enough DHA, one of the omega-3 fats, during pregnancy; but it’s an important nutrient that helps support your baby’s visual and neural development. To get the ideal amount of DHA, make sure you have 2 servings of fish a week."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Sunflower seeds, raw almonds"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tThese nuts are packed with vitamin E. Research suggests that the antioxidant vitamin E, especially when combined with vitamin C, helps protect against miscarriage and preeclampsia—a type of high blood pressure that can occur in some pregnancies. Other good sources of vitamin E are egg yolks and olive oil."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_fo1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/f1"
+        android:layout_width="281dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/f1"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="FOODS TO EAT: MONTH 1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="290dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tDuring its first month, your baby is as small as a grain of rice! Even so, you have a larger need for certain nutrients, and a balanced diet is important for getting them. Your body is changing and building organs, like the placenta,
+that will support baby’s growth and development.
+At this stage, you     may experience morning sickness.."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Leafy vegetables, fortified whole grains"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tFolate is essential, and there are plenty of places to find it. Getting enough of this B vitamin during your first month of pregnancy can help reduce the risk of birth defects. You’ll find folate in foods like fortified whole-grain bread, beans, spinach, and many fruits and vegetables.
+Grains such as pasta and cereals are also fortified with folic acid. If you are following a gluten-free diet, keep in mind you may not be getting as much folate from your food. A prenatal vitamin can help with this, as most prenatal vitamins contain 100% of the recommended daily amount of folate."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Protein from lean meat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="320dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tThe form of iron in meat is the most bioavailable. This means it has the easiest path into your system and can quickly build red blood cells that help transport oxygen throughout your and your baby’s bodies.
+Try to get between 7 and 9 ounces of lean meat per day. Each ounce has about 7 g of the protein your body needs to support your baby’s growth."
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Avocado, sweet potato, chicken"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tAny salad can be made tastier and more nutritious by topping it with one of these foods.
+They’re rich in vitamin B6.Women who have morning sickness in the first trimester, vitamin B6 could be just what you need! It’s been shown to reduce nausea and vomiting in early pregnancy. "
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

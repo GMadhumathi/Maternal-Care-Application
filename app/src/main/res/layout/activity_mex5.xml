@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/ex_bg"
+    tools:context=".m_ex5Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/m_ex5"
+        android:layout_width="281dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ex5"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="810dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="Prenatal yoga is a type of yoga designed for pregnant women. Yoga is intended to create a balance between emotional, mental, physical, and spiritual dimensions. Prenatal yoga is about helping you prepare for childbirth by relaxing the body and focusing on safe techniques and poses in all stages of pregnancy.\n\n
+    • Promotes Relaxation:  Prenatal yoga incorporates breathing techniques, mindfulness, and gentle movements that help reduce stress and promote relaxation.\n\n
+    • Enhances Circulation:  The gentle movements and stretches in prenatal yoga can help improve circulation throughout the body, reducing swelling in the hands and feet and promoting better blood flow to the uterus and placenta.\n\n
+    • Encourages Bonding with Baby:  Prenatal yoga classes often include mindfulness practices and visualization exercises that help expectant mothers connect with their baby.\n\n\n"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

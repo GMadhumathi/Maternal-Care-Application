@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_ex2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBaseline_toBaselineOf="parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/m_ex2"
+                android:layout_width="281dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ex2"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="500dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="Perform 2 sets of 10-12 squats. Keep your feet hip-width apart, lower down as if sitting in a chair,and
+ then return to standing.\n\n
+• Squat during pregnancy helps a pregnant woman keep a healthy weight since too much weight gain can be harmful if it exceeds a particular threshold.\n\n
+• Pregnancy squats build muscular strength and help keep the correct posture.\n\n
+• Squat in pregnancy is a great way to relieve pregnancy-related lower back pain."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="Precautions:"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="454dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="• Pregnant women should slowly and carefully work out each squat movement. This is because, during pregnancy,
+the protein hormone relaxin causes her ligaments and joints to loosen up.\n\n
+• It's essential for a pregnant woman not to get too hot or thirsty. So, she should make sure to drink water while doing squat during pregnancy.\n\n
+• A pregnant woman should ensure she is comfortable with the depth of her squat, so she does not lose her balance"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

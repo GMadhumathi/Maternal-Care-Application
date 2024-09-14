@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_fo6Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/f6_1"
+        android:layout_width="221dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/f6_1"></ImageView>
+
+        <ImageView
+            android:id="@+id/f6_2"
+            android:layout_width="221dp"
+            android:layout_height="149dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/f6_2"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="FOODS TO EAT: MONTH 6"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tBy month 6, your little one’s lungs have been growing like crazy, but they’re not yet ready to function in the outside world. Around this time, your baby will begin to respond to familiar sounds, such as your voice.\n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Fruits, vegetables, whole grains"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tThese fresh foods have lots of vitamins, minerals, and antioxidants, along with fiber to keep things moving. Fiber-rich foods are an important part of maintaining digestive health during pregnancy.\n\n
+    Some good sources of fiber are: whole grain breads, tortillas and waffles; cereals made with whole grains and oats; black and lima beans; brown rice, quinoa and lentils; greens including broccoli and peas\n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Avacado"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tYour body’s fluid levels increase when you’re pregnant, so it is important to maintain your electrolyte balance. Potassium and magnesium are found in a healthy, balanced diet and can help with fluid regulation and blood pressure. Avocados are packed with both nutrients!    \n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

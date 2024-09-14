@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".b1Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBaseline_toBaselineOf="parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="403dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="Month 1(0-4 Weeks)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/b1"
+                android:layout_width="281dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/b1"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="403dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="Ideal height:0.4cm\n Ideal weight:0.4gms"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="POPPY SEED SIZED BABY"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="\t\t\tI have become a zygote - a fertilized
+    egg made up of 32 cells , about the size of a poppy seed.It's at this stage that the cells seperate into three
+     distinct layers from which my internal organs and skill will develop.\nNOW I AM A POPPY SEED SIZED BABY ,MUMMY !!
+"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="403dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="My first photo in my mom's safe bag"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/b_s1"
+                android:layout_width="281dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/b_s1"></ImageView>
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="\t\t\tAfter an egg has been fertilized and implants into the uterine lining, a sac grows around it. This becomes the amniotic sac and will hold the amniotic fluid and cushion the embryo. The placenta also forms during this month. This will bring nutrition and support to the baby from the mother.\n\n
+The face and eyes begin to develop, and the heart begins to beat. By the end of the 4th week, your baby will slightly smaller than a grain of rice!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

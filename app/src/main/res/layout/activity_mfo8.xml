@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_fo8Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+    <ImageView
+        android:id="@+id/f8_1"
+        android:layout_width="221dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/f8_1"></ImageView>
+
+    <ImageView
+        android:id="@+id/f8_2"
+        android:layout_width="221dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/f8_2"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="FOODS TO EAT: MONTH 8"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tIn month 8, it’s more important than ever to make sure you’re eating a healthy diet. You’re providing essential nutrients to your baby and boosting strength and energy for the upcoming birth.\n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Salmon, shrimp, pollock"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="290dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tThe third trimester is a time for rapid growth and development of your baby’s brain. Therefore your diet should include plenty of essential fatty acids. Salmon, shrimp, and pollock are high in omega-3 and omega-6 fatty acids. Other good sources include nuts (especially walnuts), ground flaxseeds, and vegetable oils.\n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Sour cherries"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="\t\t\t\t\t\tGetting enough rest is important throughout your pregnancy. Sour cherries can help increase your body’s level of melatonin, an important sleep-regulating hormone. To help improve sleep, try drinking a cup of unsweetened cherry juice before bed. \n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

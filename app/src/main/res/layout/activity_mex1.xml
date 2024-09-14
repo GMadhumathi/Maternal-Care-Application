@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_ex1Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBaseline_toBaselineOf="parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/ex1"
+                android:layout_width="281dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ex1"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="610dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="Walking on a flat, even surface is one of the most gentle,low impact forms of exercise, which makes it ideal for pregnant people.\n\n
+     •It aids with maintaining a healthy weight gain throughout pregnancy.\n\n
+     •It keeps muscles strong to reduce back pain.\n\n
+     •It helps keep your bowels moving to combat constipation.\n\n
+     •It maintains or improves your fitness level throughout pregnancy.\n\n
+     •It works your heart, lungs, and blood vessels for overall cardiovascular health.\n\n
+     •It helps shed baby weight when continued after birth.\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/ex1_1"
+                android:layout_width="278dp"
+                android:layout_height="212dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ex1_1"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:layout_width="353dp"
+                android:layout_height="400dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="Pelvic floor exercises help to strengthen the muscles of the pelvic floor, which come under great strain in pregnancy and childbirth.\n\n
+•It can help with bladder control and support during pregnancy and childbirth. \n\n
+•Contract your pelvic floor muscles (the ones you would use to stop the flow of urine) and hold for 5-10 seconds. Relax and repeat for 10-15 repetitions.
+"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

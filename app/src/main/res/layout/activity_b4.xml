@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".b4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBaseline_toBaselineOf="parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_width="403dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="Month 4(12-16 Weeks)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/b4"
+                android:layout_width="281dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/b4"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/t22"
+                android:layout_width="403dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="Ideal height:11.6cm\n Ideal weight:100.0gms"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="AVACADO SIZED BABY"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="\t\t\tMumma,I'm now the size of an avaocado and I can make a fist and even suck my thumb.Yippeee!!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/t33"
+                android:layout_width="403dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="My photo in my mom's safe bag"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/b_s4"
+                android:layout_width="281dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/b_s4"></ImageView>
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="550dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="\t\t\tHair, eyelids, eyelashes, and nails become well developed. The heartbeat is now clearly audible through a Doppler instrument. The teeth become denser, and the baby begins to stretch, yawn and make other movements. The reproductive organs are now visible on an ultrasound. Your baby can now stretch, suck their thumb, yawn, and make super cute faces.\n\n
+This is the month that his or her nervous system develops. Their reproductive system also fully develops meaning your doctor can tell you whether you are having a girl or boy via ultrasound. By the end of the 4th month, your baby is about 6 inches long and weighs 4 ounces!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

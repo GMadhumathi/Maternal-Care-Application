@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_ex10Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/m_ex10"
+            android:layout_width="279dp"
+            android:layout_height="233dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/ex10"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="The physical changes your body is experiencing and the life changes that come about with welcoming a new baby into your family – all this can make you feel worried and stressed, even though there’s so many positives too.
+Meditation during pregnancy can bring you to a centred space that allows you to step back from the emotional rollercoaster."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="Benefits:\n\n"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="•	Reduce stress and anxiety\n\n
+• Lower heart rate and blood pressure\n\n
+• Up your inner resilience\n\n
+• Body awareness \n\n
+• Postnatal recovery Face the birth fear"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

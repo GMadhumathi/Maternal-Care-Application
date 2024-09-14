@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_ex8Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBaseline_toBaselineOf="parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/m_ex8"
+                android:layout_width="281dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/ex8"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="700dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="Steps:\n\n
+•	Place yourself on the floor with your legs out in front of you and your spine straight.\n\n
+•	Bring the heels of your feet together while bending your knees.\n\n
+•	Hold onto the feet or ankles with your hands.\n\n
+•	Put light downward pressure on your thighs to lower them to the floor.\n\n
+•	The inner thighs and pelvis should feel stretched.\n\n
+•	30 to 60 seconds should be spent in this pose before releasing.\n\n
+•	Repeat few times\n\n
+•	Keep in mind to only do what feels comfortable and pay attention to your body.\n
+"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="Benefits:\n\n"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="• Normal delivery\n\n
+ • Improved circulation\n\n
+ • Enhances flexibility\n\n
+ • Reduces pressure\n\n
+ • Promote digestion"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

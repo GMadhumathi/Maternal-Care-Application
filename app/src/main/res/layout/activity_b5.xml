@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".b5Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-171dp"
+        tools:layout_editor_absoluteY="47dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            app:layout_constraintBaseline_toBaselineOf="parent">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_width="403dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="Month 5(20-24 Weeks)"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/b5"
+                android:layout_width="281dp"
+                android:layout_height="280dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/b5"></ImageView>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_width="403dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="Ideal height:25.6cm\n Ideal weight:300.0gms"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="BANANA SIZED BABY"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="\t\t\tMumma,I'm now the size of an banana and I may have the eyebrows and arm sprouting some hair on my  head"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_width="403dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-black"
+                android:text="My photo in my mom's safe bag"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/b_s5"
+                android:layout_width="281dp"
+                android:layout_height="220dp"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/b_s5"></ImageView>
+
+            <TextView
+                android:layout_width="344dp"
+                android:layout_height="380dp"
+                android:layout_gravity="center_horizontal"
+                android:justificationMode="inter_word"
+                android:text="\t\t\t This month you may start to feel the baby move. Hair growth continues on the baby’s head and body. The shoulders and back become covered with a thin hair called lanugo. A thick substance, called vernix caseosa, covers the skin to keep it protected from the exposure to amniotic fluid. This layer will shed before the baby is born. At the end of month 5, your baby is about 10 inches long and can weigh anywhere from 5lbs–1lb!"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

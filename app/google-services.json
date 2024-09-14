@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "943938408619",
+    "project_id": "login-register-firebase-b8651",
+    "storage_bucket": "login-register-firebase-b8651.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943938408619:android:20b3c0984cd34e5507a7ee",
+        "android_client_info": {
+          "package_name": "com.example.mommygram"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwK8mQx5dLXs7WvRhqmnMeZGLg3W34Mv4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

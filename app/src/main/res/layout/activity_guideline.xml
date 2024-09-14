@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".GuidelineActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="62dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/guide"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            app:srcCompat="@drawable/guide"></ImageView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="344dp"
+            android:layout_height="1100dp"
+            android:layout_gravity="center_horizontal"
+            android:justificationMode="inter_word"
+            android:text="
+     • Thank you for choosing our application to support you on your pregnancy journey.\n\n
+     • We are thrilled to have you on board and grateful for the opportunity to accompany you during this special time.\n\n
+     • Our application is designed to provide comprehensive resources and tools to empower you throughout your pregnancy.\n\n
+     • From personalized prenatal workout routines to expertly curated food diet plans, we aim to support your physical and nutritional needs.\n\n
+     • Track your baby's growth week by week with detailed insights into fetal development milestones.\n\n
+     • Our user-friendly interface allows for easy navigation and access to valuable information at your fingertips.\n\n
+     • Plus, enjoy the convenience of offline access, allowing you to view content anytime, anywhere, without requiring an internet connection.\n\n
+     • We are committed to providing you with the best possible support and resources to ensure a healthy and happy pregnancy journey.\n\n
+     • We are honored to be a part of your journey to parenthood.\n
+"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="italic" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"/>
+    <item android:title="Music"
+        android:id="@+id/music"
+        android:icon="@drawable/baseline_library_music_24"/>
+    <item android:title="Guidelines"
+        android:id="@+id/guide"
+        android:icon="@drawable/baseline_note_24"/>
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:icon="@drawable/baseline_person_pin_24"/>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ex_bg"
+    tools:context=".m_fo10Activity">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="62dp">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:weightSum="10"
+      app:layout_constraintBaseline_toBaselineOf="parent">
+
+  <View
+      android:layout_width="wrap_content"
+      android:layout_height="40dp" />
+
+  <ImageView
+      android:id="@+id/f10"
+      android:layout_width="221dp"
+      android:layout_height="150dp"
+      android:layout_gravity="center_horizontal"
+      app:srcCompat="@drawable/f10"></ImageView>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="FOODS TO EAT: MONTH 10"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:justificationMode="inter_word"
+        android:text="\t\t\t\t\t\tAt a last moment of your pregnancy , it's very important to have a plenty of water.\n\n
+  Water is so important yet so often taken for granted. It is essential for transporting nutrients throughout your body, eliminating waste, and regulating body temperature. In hotter climates and seasons, you can lose between 2 and 3 quarts of water per day in perspiration. So, drink up and be sure to get at least ten 8-fluid-ounce glasses a day!     \n\n"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="italic" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+  </LinearLayout>
+  </ScrollView>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
