@@ -36,3 +36,5 @@ To install and run the application, follow these steps:
 1. Android Studio Electric Eel for the mobile application development.
 2. Firebase for backend support and data storage.
 
+## Sample Screenshots 
+![home](https://github.com/user-attachments/assets/6f89bcbc-34f7-401b-abee-7ae8b36fdf99)
