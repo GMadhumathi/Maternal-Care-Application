@@ -37,4 +37,4 @@ To install and run the application, follow these steps:
 2. Firebase for backend support and data storage.
 
 ## Sample Screenshots 
-![home](https://github.com/user-attachments/assets/6f89bcbc-34f7-401b-abee-7ae8b36fdf99)
+![IMAGE](https://github.com/user-attachments/assets/043dbf94-63a4-4ae8-89d7-5e264dd6cb50)
